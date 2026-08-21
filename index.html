@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha do Saber | PFC</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarTrilha" data-bs-offset="80" tabindex="0">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+        <div class="container">
+            <a class="navbar-brand" href="#inicio">
+                <span class="brand-mark">TDS</span>
+                <span class="brand-text">Trilha do Saber</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTrilha" aria-controls="navbarTrilha" aria-expanded="false" aria-label="Abrir menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTrilha">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre o TCC</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#funcionalidades">Funcionalidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#equipe">Equipe</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel / Hero -->
+    <header id="inicio">
+        <div id="carouselTrilha" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselTrilha" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselTrilha" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselTrilha" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="slide-bg slide-bg--01">
+                        <div class="slide-shape shape-a"></div>
+                        <div class="slide-shape shape-b"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <span class="eyebrow">ENEM · ENADE · Concursos</span>
+                        <h1>Trilha do Saber</h1>
+                        <p>Uma plataforma gamificada para estudar de forma guiada, no seu ritmo, rumo à aprovação.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="slide-bg slide-bg--02">
+                        <div class="slide-shape shape-c"></div>
+                        <div class="slide-shape shape-d"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <span class="eyebrow">Trilhas por tipo de simulado</span>
+                        <h1>Do fácil ao difícil</h1>
+                        <p>Níveis progressivos e simulados direcionados às questões que você mais erra, no estilo Duolingo.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="slide-bg slide-bg--03">
+                        <div class="slide-shape shape-e"></div>
+                        <div class="slide-shape shape-f"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <span class="eyebrow">Desempenho</span>
+                        <h1>Acompanhe sua evolução</h1>
+                        <p>Gráficos de porcentagem de acerto por matéria para você saber exatamente onde focar.</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselTrilha" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselTrilha" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Sobre -->
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <span class="section-eyebrow">Sobre o projeto</span>
+                    <h2>O que é o Trilha do Saber?</h2>
+                    <p class="text-body-secondary">
+                        Trabalho de Conclusão de Curso desenvolvido em <strong>Java com Spring Boot</strong>,
+                        com o objetivo de ajudar estudantes a se prepararem para o ENEM, o ENADE e concursos
+                        públicos por meio de trilhas de aprendizado adaptativas.
+                    </p>
+                    <p class="text-body-secondary">
+                        A plataforma organiza o conteúdo em níveis de dificuldade e gera quizzes personalizados
+                        com base nas questões em que o aluno mais erra, incentivando a evolução contínua.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="info-card">
+                        <ul class="info-list">
+                            <li><span class="dot"></span> Perfis de acesso: Aluno e Professor</li>
+                            <li><span class="dot"></span> Autenticação em duas etapas via e-mail</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Funcionalidades -->
+    <section id="funcionalidades" class="py-5 section-tinted">
+        <div class="container">
+            <span class="section-eyebrow">O que a plataforma oferece</span>
+            <h2 class="mb-4">Funcionalidades</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">01</div>
+                        <h5>Trilhas por matéria</h5>
+                        <p>Conteúdo organizado em níveis progressivos, do básico ao avançado.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">02</div>
+                        <h5>Quizzes direcionados</h5>
+                        <p>Questões geradas a partir dos erros do aluno para reforçar pontos fracos.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">03</div>
+                        <h5>Painel de desempenho</h5>
+                        <p>Gráficos de percentual de acerto por matéria, atualizados a cada atividade.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipe -->
+    <section id="equipe" class="py-5">
+        <div class="container">
+            <span class="section-eyebrow">Quem está por trás</span>
+            <h2 class="mb-4">Equipe</h2>
+            <div class="row g-4">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="team-card">
+                        <div class="team-avatar">BE</div>
+                        <h6>Back-end</h6>
+                        <p>Java · Spring Boot</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="team-card">
+                        <div class="team-avatar">FE</div>
+                        <h6>Front-end</h6>
+                        <p>Thymeleaf · JS</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="team-card">
+                        <div class="team-avatar">BD</div>
+                        <h6>Banco de Dados</h6>
+                        <p>PostgreSQL</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="team-card">
+                        <div class="team-avatar">DOC</div>
+                        <h6>Documentação</h6>
+                        <p>Gestão do PFC</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato / Footer -->
+    <footer id="contato">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="text-white mb-3">Trilha do Saber</h5>
+                    <p class="footer-text">PFC de Sistemas de Informação — Plataforma de estudos para ENEM, ENADE e concursos.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="footer-text mb-1">trilha-do-saber.onrender.com</p>
+                    <p class="footer-text mb-0">&copy; 2026 Trilha do Saber</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
