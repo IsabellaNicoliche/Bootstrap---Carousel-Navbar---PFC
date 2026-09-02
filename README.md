@@ -2,10 +2,10 @@
 
 Link: https://isabellanicoliche.github.io/Bootstrap---Carousel-Navbar---PFC/
 
-Plataforma de estudos para ENEM, ENADE e concursos públicos, desenvolvida como Projeto Final de Curso (PFC).
+# Sobre
+Plataforma de estudos para o ENADE, desenvolvida como Projeto Final de Curso (PFC).
 
-A ideia é organizar o conteúdo em trilhas por matéria, com níveis progressivos (do fácil ao difícil) e simulados direcionados às questões que o aluno mais erra.
-
+A ideia é organizar o conteúdo em trilhas por matéria, com níveis progressivos (do fácil ao difícil), simulados baseado nas provas anteriores do ENADE, e direcionados às questões que o aluno mais erra.
 
 ## Equipe
 
